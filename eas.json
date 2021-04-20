@@ -3,6 +3,10 @@
     "android": {
       "release": {
         "workflow": "managed"
+      },
+      "emulator": {
+        "workflow": "managed",
+        "buildType": "apk"
       }
     },
     "ios": {
